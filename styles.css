@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Marck+Script&display=swap');
+
+:root{
+    --main-color: #737373;
+    scroll-padding-top: 50px;
+}
+
+body{
+    background-color: #1d1e1f;}
+
+*{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    max-height: 60vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.wrapper img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.on-the-image{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+}
+
+h1{
+    font-size: 38px;
+    margin-top: 30px;
+    color: white;
+}
+
+h2{
+    font-size: 24px;
+    color: white;
+}
+
+.main{
+    margin-left: 150px;
+}
+
+#action-buttons{
+    gap:30px;
+    margin-top: 30px;
+}
+
+#action-buttons >*{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#Leave-a-message{
+    width: 210px;
+    height: 42px;
+    border-radius: 100px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+}
+
+#More-info{
+    width: 210px;
+    height: 42px;
+    border-radius: 100px;
+    border-color: var(--main-color);
+    background: none;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#types img{
+    width: 70px;
+}
+
+#types{
+    background-color: #111314;
+    justify-content: space-around;
+    height: 150px;
+}
+
+#types >div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+#types p{
+    color: white;
+    font-size: 40px;
+}
+
+#about{
+    background-color: #1d1e1f;
+    color: white;
+}
+
+#about h2{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#about p{
+    font-size: 20px;
+    width: 50vw;
+}
+
+#about img{
+    width: 35vw;
+}
+
+.carousel-container {
+    margin-top: 62px !important;
+position: relative;
+width: 600px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.carousel-slide {
+display: flex;
+width: 100%;
+transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+width: 100%;
+flex-shrink: 0;
+}
+
+.carousel-btn {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: rgba(0, 0, 0, 0.5);
+color: white;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+}
+
+.prev {
+left: 10px;
+}
+
+.next {
+right: 10px;
+}
+
+#about-travel{
+    margin-top: 30px;
+   background-color: #1d1e1f;
+    color: white; 
+}
+
+#about-travel h2{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+#about-travel > *{
+    display: inline-block;
+}
+
+#text-about-travel{
+    background-color: #1d1e1f;
+    justify-content: space-evenly;
+    margin-right: 10px;  
+}
+
+#text-about-travel > .carousel-container p{
+    display: flex;
+}
+
+#text-about-travel > p{
+    color: white;
+    font-size: 20px;
+    width: 50vw;
+    display: block;
+}

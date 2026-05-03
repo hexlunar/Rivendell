@@ -1,0 +1,103 @@
+.d-flex{
+    display: flex;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    backdrop-filter: blur(20px);
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.102);
+    z-index: 1;
+}
+
+#navmenu{
+    gap: 31px;
+    margin: auto 100px auto 0;
+    gap: 100px;
+}
+
+#logo{
+    align-items: center;
+    margin-left: 150px;
+    color: black;
+    font-size: 33px;
+}
+
+#navmenu > a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    
+}
+
+.scrolled{
+    height: 50px !important;
+    background-color: #1d1e1f !important;
+
+    transition: all 500ms;
+}
+
+.scrolled #logo{
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #111314;
+}
+
+footer .spacer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px 80px 20px 80px;
+    max-width: 900px;
+}
+
+footer .spacer >*{
+    display: inline-block;
+    margin: 30px;
+}
+
+footer .spacer >* >*{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.links2 > a{
+    display: inline-block;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: contain;
+    filter: invert(100%);
+    margin: 10px 10px;
+}
+
+.links2{
+    position: relative;
+    right: 10px;
+}
+
+#vk{
+    background-image: url(icons/vk.png);
+}
+
+#instagram{
+    background-image: url(icons/instagram.png); 
+}
+
+#telegram{
+    background-image: url(icons/telegram.png);
+}
+
+.konez{
+    color: white;
+    text-align: center;
+}
