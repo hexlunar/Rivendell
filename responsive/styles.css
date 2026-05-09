@@ -1,0 +1,21 @@
+@media screen and (max-width: 950px){
+    #header{
+        flex-direction: column;
+    }
+
+    #logo{
+        margin: 0 auto;
+    }
+
+    #navmenu{
+        margin: 0 auto;
+    }
+
+    .scrolled{
+        height: 80px !important;
+    }
+
+    .scrolled #logo{
+        margin-top: 20px;
+    }
+}

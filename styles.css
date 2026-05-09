@@ -119,9 +119,10 @@ h2{
 }
 
 #about img{
+    display: inline-block;
     width: 40vw;
-    margin-right: 30px;
-    margin-left: 30px;
+    object-fit: scale-down;
+    margin: 3rem;
 }
 
 .carousel-container {

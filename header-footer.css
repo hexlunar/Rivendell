@@ -12,6 +12,7 @@
     align-content: center;
     background-color: rgba(255, 255, 255, 0.102);
     z-index: 1;
+    white-space: nowrap;
 }
 
 #navmenu{
@@ -37,7 +38,6 @@
 .scrolled{
     height: 50px !important;
     background-color: #1d1e1f !important;
-
     transition: all 500ms;
 }
 
