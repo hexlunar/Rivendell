@@ -115,15 +115,18 @@ h2{
 
 #about p{
     font-size: 20px;
-    width: 50vw;
+    width: 40vw;
 }
 
 #about img{
-    width: 35vw;
+    width: 40vw;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .carousel-container {
-    margin-top: 62px !important;
+margin-top: 62px !important;
+margin-left: 150px !important;
 position: relative;
 width: 600px;
 margin: 0 auto;
@@ -169,7 +172,6 @@ right: 10px;
 #about-travel h2{
     font-size: 50px;
     margin-top: 10px;
-    margin-left: 150px;
     margin-bottom: 10px;
 }
 
@@ -190,6 +192,7 @@ right: 10px;
 #text-about-travel > p{
     color: white;
     font-size: 20px;
-    width: 50vw;
+    width: 45vw;
     display: block;
+    margin-right: 30px;
 }
