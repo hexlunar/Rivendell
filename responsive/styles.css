@@ -56,3 +56,79 @@
         margin-right: 10px;
     }
 }
+
+
+@media screen and (max-width: 792px){
+    footer .spacer > *{
+        margin: 24px !important;
+    } 
+
+    .carousel-btn{
+        top: 36%;
+    }  
+}
+
+@media screen and (max-width: 756px){
+    footer .spacer > *{
+        margin: 4px !important;
+    }
+
+    .links2{
+        right: auto;
+    }
+
+    #about{
+        display: inline-flexbox;
+    }
+
+    #about p{
+        font-size: 17px;
+        width: 46vw;
+        margin-right: 3px;
+    }
+
+    #about img{
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 636px){
+    .links2 > a{
+        margin: 2px 4px;
+    }
+
+    .carousel-btn{
+        top: 25%
+    }
+
+    #text-about-travel > p{
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 632px){
+    #navmenu{
+        gap: 56px !important;
+    }
+}
+
+
+@media screen and (max-width: 570px){
+    #types{
+        height: 80px !important;
+    }
+    
+    #types p{
+        font-size: 20px !important;
+    }
+    
+    #types img{
+        width: 40px !important;
+    }
+
+    footer .spacer{
+        padding: 18px 6px 9px 52px;
+    }
+    
+}
